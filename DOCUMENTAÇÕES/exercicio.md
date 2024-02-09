@@ -27,4 +27,16 @@ Postagem:
 Como podemos documentar isso?
 - Usando um software de modelagem de dados, como:
     - [dbdiagram.io](https://dbdiagram.io/home)
-    - [miro](https://miro.com/app/dashboard/)
+    ```javascript
+    Table pessoas {
+      id text
+      email text
+      senha text
+      celular text
+    }
+
+    Table postagens {
+      id integer
+    }
+    
+- [miro](https://miro.com/app/dashboard/)
