@@ -14,10 +14,16 @@ O que precisamos saber sobre os usuários?
 - telefone (unico)
 
 O que precisamos saber sobre os tweets?
-- texto (pode ou não ter)
+- id (número)
+- texto (DEVE TER)
 - data de postagem (dd/mm/ano hora:minutos)
 - imagem
 - curtidas (numero positivo apenas)
+
+Postagem:
+- Arroba (@meu_usuario)
+- id da postagem
+
 Como podemos documentar isso?
 - Usando um software de modelagem de dados, como:
     - [dbdiagram.io](https://dbdiagram.io/home)
