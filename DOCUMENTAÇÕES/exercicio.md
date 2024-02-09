@@ -21,7 +21,7 @@ O que precisamos saber sobre os tweets?
 - curtidas (numero positivo apenas)
 
 Postagem:
-- Arroba (@meu_usuario)
+- id do usuário (@meu_usuario)
 - id da postagem
 
 Como podemos documentar isso?
