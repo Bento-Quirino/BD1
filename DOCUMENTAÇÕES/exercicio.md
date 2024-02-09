@@ -8,11 +8,16 @@ O que precisamos guardar?
 - tweets
 
 O que precisamos saber sobre os usuários?
-- nome
+- nome (unico)
+- email (unico)
+- senha (texto/criptografado)
+- telefone (unico)
 
 O que precisamos saber sobre os tweets?
-- texto
-
+- texto (pode ou não ter)
+- data de postagem (dd/mm/ano hora:minutos)
+- imagem
+- curtidas (numero positivo apenas)
 Como podemos documentar isso?
 - Usando um software de modelagem de dados, como:
     - [dbdiagram.io](https://dbdiagram.io/home)
