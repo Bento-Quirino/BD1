@@ -31,16 +31,16 @@ Como podemos documentar isso?
     Table users {
       username text
       email text
-      senha text
-      telefone text
+      password text
+      phone text
     }
     
     Table posts {
       id number
-    }
-    
-    Table user_posts {
-      id number
+      description text
+      image binary // bytea no postgres
+      video bynary // bytea no postgres (binário)
+      created_at timestamp // Data com hora e minuto no postgres 
     }
     
 - [miro](https://miro.com/app/dashboard/)
