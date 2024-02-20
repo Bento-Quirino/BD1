@@ -28,15 +28,19 @@ Como podemos documentar isso?
 - Usando um software de modelagem de dados, como:
     - [dbdiagram.io](https://dbdiagram.io/home)
     ```javascript
-    Table pessoas {
-      id text
+    Table users {
+      username text
       email text
       senha text
-      celular text
+      telefone text
     }
-
-    Table postagens {
-      id integer
+    
+    Table posts {
+      id number
+    }
+    
+    Table user_posts {
+      id number
     }
     
 - [miro](https://miro.com/app/dashboard/)
